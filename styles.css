@@ -1,0 +1,147 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  /* Active nav link */
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #198754;
+}
+
+.nav-link {
+  color: #198754;
+}
+
+.nav {
+  --bs-nav-link-hover-color: black; /* Nav link hover colour */
+}
+
+.img1 {
+  /* Image hover effect */
+  border-radius: 10px;
+  margin-top: 0px;
+}
+.img1 img {
+  /* Image hover effect */
+  display: block;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.img1:hover img {
+  /* Image hover effect */
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.button-home {
+  /* Button hover effect */
+  width: 50%;
+}
+
+.header-title {
+  /* Header title */
+  color: #198754;
+}
+
+.airplane-svg {
+  /* Airplane SVG */
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  color: #198754;
+}
+
+.footer-text {
+  /* Footer text colour */
+  color: #198754 !important;
+}
+
+body {
+  background-image: url("/images/background-img.jpg"); /* Background image */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) #198754 !important; /* Border bottom colour */
+}
+
+.form-box {
+  width: 500px;
+}
+
+.title-form-box {
+  display: flex;
+  justify-content: center;
+  color: #198754;
+  text-decoration: underline;
+}
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button button {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.carousel-item img {
+  height: 65vh;
+  object-fit: cover;
+}
+
+.carousel-text {
+  background-color: rgb(0, 0, 0, 0.2);
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.container {
+  padding-top: 20px;
+}
+
+.card-img:hover {
+  /* Card image hover effect */
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.card-img {
+  /* Card image hover effect when taje the mouse out */
+  transition: 0.3s ease-in-out;
+}
+
+.title-services-page {
+  text-decoration: underline;
+}
+
+.font-header {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Castoro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footer {
+  margin-top: auto;
+}
